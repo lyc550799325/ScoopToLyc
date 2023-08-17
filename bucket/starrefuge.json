@@ -1,12 +1,12 @@
 {
-    "version": "1.91",
+    "version": "nightly",
     "homepage": "https://www.starcitizenzw.com/",
     "description": "Star Citizen Chinesization Group",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/summerkirakira/starcitizen-localization-cn/archive/refs/tags/1.91.zip",
-            "hash": "sha256:62297FE3BAD841B83382B4077A2D7EAD846973EE395A183170A62445FB17CC9A"
+            "url": "https://image.biaoju.site/starcitizen/app/StarRefuge.0.1.msi",
+            "hash": "sha256:D06B3D52303635D55282FF942B3313FB14F47F1ED4C18A261D7526F9240BCFF7"
         }
     },
     "shortcuts": [
@@ -14,11 +14,5 @@
             "Star Refuge.exe",
             "星河避难所"
         ]
-    ],
-    "checkver": {
-        "github": "https://github.com/summerkirakira/starcitizen-localization-cn"
-    },
-    "autoupdate": {
-        "url": "https://github.com/summerkirakira/starcitizen-localization-cn/archive/refs/tags/$version.zip"
-    }
+    ]
 }
