@@ -1,13 +1,13 @@
 {
-    "version": "3.4.8.22092",
+    "version": "3.4.8.22124",
     "description": "An lightweight instant messaging software service developed by Tencent",
     "homepage": "https://tim.qq.com/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://ti.qq.com/tim/serverinfo.html"
     },
-    "url": "https://webcdn.m.qq.com/spcmgr/download/TIM3.4.8.22092.exe#/dl.exe",
-    "hash": "57b2d7fc2065751e66354b9a4ef05fff89ba5e2342520aaba85776e0e174925c",
+    "url": "http://dldir1.qq.com/qqfile/qq/TIM3.4.8/TIM3.4.8.22124.exe#/dl.7z",
+    "hash": "d9dddbce10d00d4bdc2d6959fa1afef68094829feda4323f3f241e591ef36ad0",
     "pre_install": [
         "if (Test-Path \"$env:AppData\\Tencent\\Tim\") {",
         "    info '[Persistent data]: Copying user data...'",
