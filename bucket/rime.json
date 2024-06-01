@@ -1,20 +1,26 @@
 {
     "homepage": "https://github.com/rime/weasel",
     "description": "Rime Input Method Engine",
-    "version": "0.15.0",
+    "version": "0.16.0",
     "license": "GPLv3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rime/weasel/releases/download/0.15.0/weasel-0.15.0.0-installer.exe#/dl.7z",
-            "hash": "SHA256:21B2B3BA19F11B308DB3C50CE343A14A42CE10331E3C0B7021850EC6726DCD10"
+            "url": "https://github.com/rime/weasel/releases/download/0.16.0/weasel-0.16.0.0-installer.exe#/dl.7z",
+            "hash": "SHA256:F351C517DBCE2AF7F863552DD80DC888B1D4B5B2DDC688C833213685F22833C5"
         }
     },
+    "shortcuts": [
+        [
+            "WeaselServer.exe",
+            "Rime"
+        ]
+    ],
     "persist": "rime_data",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rime/weasel/releases/download/0.15.0/weasel-$version.0-installer.exe#/dl.7z"
+                "url": "https://github.com/rime/weasel/releases/download/$version/weasel-$version.0-installer.exe#/dl.7z"
             }
         }
     }
