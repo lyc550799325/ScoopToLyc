@@ -1,12 +1,12 @@
 {
     "description": "权威的英语词典软件，英语学习者必备的工具",
     "homepage": "https://www.eudic.net/",
-    "version": "2024-09-06",
+    "version": "2024-09-19",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://static.frdic.com/pkg/eudic_win.zip",
-            "hash": "2418f7bad80b3d461a7bb3ae585d406d7a047a67b8449be785f95a13352bc3fe"
+            "hash": "cb18f52ff1a600b33c65d577faf24d557da97f912eb5e0eb4ffd70066fff2883"
         },
         "32bit": {
             "url": "https://static.frdic.com/pkg/eudic_win32.zip",
