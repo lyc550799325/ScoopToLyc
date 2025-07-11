@@ -20,7 +20,7 @@
     ],
     "notes": "请运行算法服务（WeaselServer.exe）并添加到开机启动。",
     "checkver": {
-        "url": "https://github.com/rime/weasel/releases/latest",
+        "url": "https://api.github.com/repos/rime/weasel/releases/latest",
         "regex": "/releases/download/(?<prefix>[\\d.]+)/weasel-(?<version>[\\d.]+)-installer.exe"
     },
     "autoupdate": {
