@@ -28,15 +28,15 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/nilaoda/N_m3u8DL-RE/releases/latest",
-        "regex": "/releases/download/v(?<version>[\\d.]+)-beta/N_m3u8DL-RE_Beta_win-x64_(?<build>\\d{8})"
+        "regex": "/releases/download/v(?<version>[\\d.]+)-beta/N_m3u8DL-RE_v(?<version>[\\d.]+)-beta_win-x64_(?<build>\\d{8})"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v$version-beta/N_m3u8DL-RE_Beta_win-x64_$matchBuild.zip"
+                "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v$version-beta/N_m3u8DL-RE_v$version-beta_win-x64_$matchBuild.zip"
             },
             "arm64": {
-                "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v$version-beta/N_m3u8DL-RE_Beta_win-arm64_$matchBuild.zip"
+                "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v$version-beta/N_m3u8DL-RE_v$version-beta_win-arm64_$matchBuild.zip"
             }
         }
     }
