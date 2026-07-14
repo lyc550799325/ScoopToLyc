@@ -1,5 +1,5 @@
 {
-    "version": "nightly",
+    "version": "6.0.0.2418",
     "description": "Qsync automatically synchronizes files to devices connected to QNAP NAS",
     "homepage": "https://www.qnap.com.cn/zh-cn/software/qsync",
     "license": {
@@ -12,5 +12,12 @@
             "Qsync.exe",
             "Qsync Client"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.qnap.com/en/utilities/essentials",
+        "regex": "https://download.qnap.com/Storage/Utility/QNAPQsyncClientWindows-([\\d.]+).msi"
+    },
+    "autoupdate": {
+        "url": "https://download.qnap.com/Storage/Utility/QNAPQsyncClientWindows-$version.msi"
+    }
 }
