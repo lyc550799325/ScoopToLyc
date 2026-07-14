@@ -1,5 +1,5 @@
 {
-    "version": "nightly",
+    "version": "7.10.2.0125",
     "description": "Qfinder Pro will automatically find and display all QNAP NAS in the same LAN",
     "homepage": "https://www.qnap.com.cn/zh-cn/software/qfinder-pro",
     "license": {
@@ -12,5 +12,12 @@
             "QfinderPro.exe",
             "Qfinder Pro"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.qnap.com/en/utilities/essentials",
+        "regex": "https://download.qnap.com/Storage/Utility/QNAPQfinderProWindows-([\\d.]+).msi"
+    },
+    "autoupdate": {
+        "url": "https://download.qnap.com/Storage/Utility/QNAPQfinderProWindows-$version.msi"
+    }
 }
