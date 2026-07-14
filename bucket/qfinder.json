@@ -6,7 +6,7 @@
         "identifier": "eula",
         "url": "https://www.qnap.com.cn/zh-cn/legal/qnap-software-terms-of-use"
     },
-    "url": "https://download.qnap.com/Storage/Utility/QNAPQfinderProWindows-7.13.3.0521.msi",
+    "url": "https://download.qnap.com/Storage/Utility/QNAPQfinderProWindows-7.13.3.0521.exe#/dl.7z",
     "shortcuts": [
         [
             "QfinderPro.exe",
@@ -18,6 +18,6 @@
         "regex": "https://download.qnap.com/Storage/Utility/QNAPQfinderProWindows-([\\d.]+).msi"
     },
     "autoupdate": {
-        "url": "https://download.qnap.com/Storage/Utility/QNAPQfinderProWindows-$version.msi"
+        "url": "https://download.qnap.com/Storage/Utility/QNAPQfinderProWindows-$version.exe#/dl.7z"
     }
 }

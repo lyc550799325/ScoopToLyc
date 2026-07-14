@@ -6,7 +6,7 @@
         "identifier": "eula",
         "url": "https://www.qnap.com.cn/zh-cn/legal/qnap-software-terms-of-use"
     },
-    "url": "https://download.qnap.com/Storage/Utility/QNAPQsyncClientWindows-6.0.3.0703.msi",
+    "url": "https://download.qnap.com/Storage/Utility/QNAPQsyncClientWindows-6.0.3.0703.exe#/dl.7z",
     "shortcuts": [
         [
             "Qsync.exe",
@@ -18,6 +18,6 @@
         "regex": "https://download.qnap.com/Storage/Utility/QNAPQsyncClientWindows-([\\d.]+).msi"
     },
     "autoupdate": {
-        "url": "https://download.qnap.com/Storage/Utility/QNAPQsyncClientWindows-$version.msi"
+        "url": "https://download.qnap.com/Storage/Utility/QNAPQsyncClientWindows-$version.exe#/dl.7z"
     }
 }
